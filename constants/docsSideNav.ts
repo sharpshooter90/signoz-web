@@ -916,6 +916,23 @@ const docsSideNav = [
     ],
   },
   {
+    label: 'Ingestion',
+    type: 'category',
+    items: [
+      //     'userguide/overview',
+      {
+        type: 'doc',
+        route: '/docs/ingestion/ingestion.mdx',
+        label: 'Overview',
+      },
+      {
+        type: 'doc',
+        route: '/docs/ingestion/ingestion-logs.mdx',
+        label: 'Ingestion Logs',
+      }
+    ],
+  },
+  {
     label: 'Tutorials',
     type: 'category',
     route: '/docs/tutorials',
