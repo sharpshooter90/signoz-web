@@ -919,7 +919,6 @@ const docsSideNav = [
     label: 'Ingestion',
     type: 'category',
     items: [
-      //     'userguide/overview',
       {
         type: 'doc',
         route: '/docs/ingestion/ingestion.mdx',
@@ -929,6 +928,16 @@ const docsSideNav = [
         type: 'doc',
         route: '/docs/ingestion/ingestion-logs.mdx',
         label: 'Ingestion Logs',
+      },
+      {
+        type: 'doc',
+        route: '/docs/ingestion/ingestion-traces.mdx',
+        label: 'Ingestion Traces',
+      },
+      {
+        type: 'doc',
+        route: '/docs/ingestion/ingestion-metrics.mdx',
+        label: 'Ingestion Metrics',
       }
     ],
   },
