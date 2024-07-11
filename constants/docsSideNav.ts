@@ -1458,7 +1458,7 @@ const docsSideNav = [
   {
     label: 'Troubleshooting',
     type: 'category',
-    route: '/docs/faqs',
+    // route: '/docs/faqs',
     // link: {
     // type: 'generated-index',
     // title: 'Frequently Asked Questions',
