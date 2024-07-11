@@ -921,22 +921,22 @@ const docsSideNav = [
     items: [
       {
         type: 'doc',
-        route: '/docs/ingestion/ingestion.mdx',
+        route: '/docs/ingestion/ingestion',
         label: 'Overview',
       },
       {
         type: 'doc',
-        route: '/docs/ingestion/ingestion-logs.mdx',
+        route: '/docs/ingestion/ingestion-logs',
         label: 'Ingestion Logs',
       },
       {
         type: 'doc',
-        route: '/docs/ingestion/ingestion-traces.mdx',
+        route: '/docs/ingestion/ingestion-traces',
         label: 'Ingestion Traces',
       },
       {
         type: 'doc',
-        route: '/docs/ingestion/ingestion-metrics.mdx',
+        route: '/docs/ingestion/ingestion-metrics',
         label: 'Ingestion Metrics',
       }
     ],
@@ -1490,6 +1490,11 @@ const docsSideNav = [
             type: 'doc',
             route: '/docs/troubleshooting/signoz-cloud/metrics-troubleshooting',
             label: 'Metrics Troubleshooting',
+          },
+          {
+            type: 'doc',
+            route: '/docs/troubleshooting/signoz-cloud/ingestion-troubleshooting',
+            label: 'Ingestion Troubleshooting',
           },
         ],
       },
